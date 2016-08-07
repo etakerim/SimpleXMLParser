@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<class>
+   <student rollno="393">
+      <firstname>dinkar</firstname>
+      <lastname>kad</lastname>
+      <nickname>dinkar</nickname>
+      <marks>85</marks>
+   </student>
+</class>
+
+Element: class
+|---> Element: student
+|--->    Attribute
+|--->        Key: rollno; Value: 393
+|---> |---> Element: firstname
+|---> |--->    Text: dinkar
+|---> |---> Element: lastname
+|---> |--->    Text: kad
+|---> |---> Element: nickname
+|---> |--->    Text: dinkar
+|---> |---> Element: marks
+|---> |--->    Text: 85
+
+Current Element : student                                                                            
+Student rollno : 393                                                                               
+First Name : dinkar                                                                                 
+Last Name : kad                                                                                     
+Nick Name : dinkar                                                                                  
+Marks : 85   
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<book>
+    <title lang="en" next="lol">
+	Hello *!
+    </title> <!-- title otvorí ako nový tag namiesto zavrenia a porovania -->
+</book>

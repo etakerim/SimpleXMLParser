@@ -1,0 +1,85 @@
+<html>
+    <!-- Toto je úvodná stránka pre FLASK web server -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Flask Web Server(Hájek)</title>
+        <link rel="stylesheet" href="/static/style.css" /> 
+    </head>
+    <body>
+        <h1>SlediNotes</h1>
+        <p>Plánovací a záznamový kalendár pre váš terminál</p>
+        <br />
+        <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clipartlord.com%2Fwp-content%2Fuploads%2F2013%2F05%2Fsled.png&f=1" alt="Sane" height="200" />
+        <br /><br />
+        <h5>Jeho plánované funkcie sú nasledovné:</h5>
+        <ul>
+            <li>Udalosti</li>
+            <li>Todo</li>
+            <li>Kontakty</li>
+            <li>..a mnoho ďalšieho rozšírenia cez templatovanie</li>
+        </ul>
+        <br />
+        <p>Projekt používa rôzne opensource knižnice, aby bol ľahšie 
+            prispôsobiteľný </p><br />
+        <p>Sú to napríklad: <a href="https://github.com/skogorev/vc_vector">Vektory (dynamické polia), </a>
+        <a href="https://troydhanson.github.io/uthash/userguide.html">UTHASH(hešovacia
+        tabuľka)</a> a samozrejme <a href="https://github.com/websnarf/bstrlib">The better string library</a>
+        </p>
+        <br /><br />
+        <p>Štruktúry v programe budú vyzerať následovne: </p> 
+        <table border="2">
+            <tr>
+                <th>struct Event</th>
+                <th>struct Kontakt</th>
+            </tr>
+            <tr>
+                <th>bstring title</th>
+                <th>bstring name</th>
+            </tr>
+            <tr>
+                <th>time_t begin</th>
+                <th>bstring job</th>
+            </tr>
+            <tr>
+                <th>time_t end</th>
+                <th>bstring email[]</th>
+            </tr>
+            <tr>
+                <th>bstring descript</th>
+                <th>bstring telnum[]</th>
+            </tr>
+            <tr>
+                <th>time_t edittm</th>
+                <th> </th>
+            </tr>
+            <tr>
+                <th>bstring tags[]</th>
+                <th>bstring descript</th>
+            </tr>
+        </table>
+        <br />
+        <p>Ak chcete prispievať do tohto projektu musíte ovládať programovací
+         jazyk C lebo naňom budujeme všetky potrebné nástroje a programy.
+        Základný program ste preto už určite videl. Pochádza zo svetoznámej
+        prírúčky toho jazyka: <b>Programovací jazyk C</b>. Autormi sú
+        <i>Kernighan&amp;Ritchtie.</i></p>
+        <br/>
+        <pre>
+        <code>
+        #include &lt;stdio.h&gt;
+
+        int main(void) 
+        {
+            printf("hello, world");
+        }
+        </code>
+        </pre>
+        <br />
+        <p>Táto kniha vás v predajni Martinus vyjde okolo: 12&euro;</p>
+          <br /><br />
+        <p>Miroslav Hájek &copy;2016 Zdroj:<a href="http://www.w3schools.com/html/html_computercode_elements.asp">W3schools</a> 
+        <a href="http://jgthms.com/web-design-in-4-minutes/#share">Coding guide</a>
+        a samozrejme ultimátny tutorial <a href="https://www.raspberrypi.org/learning/python-web-server-with-flask/worksheet/">Raspberry PI stránka</a>
+	</p>
+    </body>
+</html>

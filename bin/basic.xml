@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This is a comment -->
+<library>
+    <book> <!--Knihy sú super -->
+        <title lang="en">C programovací jazyk</title>
+        <vydanie>1988</vydanie>
+        <autori>Kernighan&amp;Ritchie</autori>
+    </book>
+    <book>
+        <title lang="sk" sym="no">Eragon</title>
+        <vydanie>2006</vydanie>
+        <autori>Unknown</autori>
+    </book>
+</library>
