@@ -15,10 +15,9 @@ Self contained tags are also permitted:
 <selfcontained />
 ```
 
-###Build and run
+### Build and run
 1. Switch to `src` folder
-2. From command line run: 
-   `make`
+2. From command line run: `make`
 3. Program is created in `bin` folder
 
 
