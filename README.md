@@ -15,6 +15,13 @@ Self contained tags are also permitted:
 <selfcontained />
 ```
 
+###Build and run
+1. Switch to `src` folder
+2. From command line run: 
+   `make`
+3. Program is created in `bin` folder
+
+
 ### Implementation data model
 This is **not a validator**! You are not able to supply DTD nor xml-schema. It
 is purely based on *tree data structure*.
